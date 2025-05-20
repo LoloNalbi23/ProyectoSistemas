@@ -1,0 +1,32 @@
+.container{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.title{
+  display: flex;
+  order: 2;
+  height: 90px;
+}
+
+.logo{
+  display: flex;
+  order: 1;
+}
+
+.btn{
+  display: flex;
+  order: 3;
+  justify-content: flex-end;
+}
+
+.info {
+  font-size: 16px;
+}
+
+.cuerpo {
+  display: grid;
+  align-content: end;
+  
+}

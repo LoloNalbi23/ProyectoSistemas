@@ -1,0 +1,229 @@
+body {
+    background: rgb(90,34,195);
+    background: linear-gradient(0deg, rgba(90,34,195,1) 0%, rgba(199,209,20,1) 100%);
+    height: 100
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.animacion {
+    background-color: transparent;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: grid;
+    grid-template-columns: [first] 150px [line2] 150px [line3] 150px [line4] 150px [line5] 150px;
+    grid-template-rows: [first-line] 150px [second-line] 150px [third-line] 150px [fourth-line] 150px [fifth-line] 150px [last-line];
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-content: center;
+}
+
+.item1 {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item2 {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item3 {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item4 {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item5 {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item6 {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item7 {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item8 {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item9 {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item10 {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item11 {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item12 {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item13 {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item14 {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item15 {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item16 {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item17 {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item18 {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item19 {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item20 {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item21 {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item22 {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item23 {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item24 {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item25 {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centrado{
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    transition: all 0.5s;
+    font-size: 17px;
+    padding: 1ch 2ch;
+    background-color: white;
+    color: #000;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    box-shadow:
+    2px 2px 0px hsl(0, 0%, 90%),
+    4px 4px 0px hsl(0, 0%, 80%),
+    6px 6px 0px hsl(0, 0%, 70%),
+    8px 8px 0px hsl(0, 0%, 60%),
+    10px 10px 0px hsl(0, 0%, 50%),
+    12px 12px 0px hsl(0, 0%, 40%),
+    14px 14px 0px hsl(0, 0%, 30%),
+    16px 16px 0px hsl(0, 0%, 20%),
+    18px 18px 0px hsl(0, 0%, 10%);
+}
+
+button:hover {
+    background-color: hsl(0, 0%, 50%);
+    color: #fff;
+    box-shadow: none;
+}
