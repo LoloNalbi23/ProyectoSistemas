@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Graficar Funciones</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main>
+    <form action="" id="formulario">
+      <!-- Principio -->
+      <label for="inicio">Desde</label>
+      <input type="number" id="inicio" step="any">
+      <!-- Final -->
+      <label for="final">Hasta</label>
+      <input type="number" id="final" step="any">
+      <!-- Cantidad de puntos -->
+      <label for="puntos">Cantidad de puntos</label>
+      <input type="text" id="puntos">
+      <label for="selector">Funcion a graficar</label>
+      <select name="" id="selector">
+        <option value="sin">Seno</option>
+        <option value="cos">Coseno</option>
+        <option value="tg">Tangente</option>
+      </select>
+      <!-- submit -->
+      <button type="submit" id="subir">Enviar</button>
+    </form>
+    <h1>Graficador de Funciones</h1>
+    <canvas id="grafico" width="3200" height="1800"></canvas>
+  </main>
+
+</body>
+
+</html>
