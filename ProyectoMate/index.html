@@ -13,14 +13,20 @@
     <form action="" id="formulario">
       <!-- Principio -->
       <label for="inicio">Desde</label>
-      <input type="number" id="inicio" step="any">
+      <input type="number" id="inicio" placeholder="Colocar cantidad de Pi" value="0" required>
       <!-- Final -->
       <label for="final">Hasta</label>
-      <input type="number" id="final" step="any">
+      <input type="number" id="final" placeholder="Colocar cantidad de Pi" value="2" required>
       <!-- Cantidad de puntos -->
       <label for="puntos">Cantidad de puntos</label>
-      <input type="text" id="puntos">
-      <label for="selector">Funcion a graficar</label>
+      <input type="range" min="10"  max="300" value="150" id="puntos" required>
+      <span id="dots" > 150 </span>
+      <!-- Amplitud -->
+      <label for="a">Amplitud</label>
+      <input type="range" min="-10"  max="10" value="1" id="a" required>
+      <span id="cant" > 1 </span>
+      <!-- Selector de funcion -->
+      <label for="selector">Función a graficar</label>
       <select name="" id="selector">
         <option value="sin">Seno</option>
         <option value="cos">Coseno</option>
