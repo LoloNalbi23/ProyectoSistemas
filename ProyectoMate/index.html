@@ -3,40 +3,76 @@
 
 <head>
   <meta charset="UTF-8" />
-  <title>Graficar Funciones</title>
+  <title>Lolo's functions</title>
   <link rel="stylesheet" href="style.css" />
   <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
   <script src="script.js" defer></script>
 </head>
 <body>
   <main>
-    <form action="" id="formulario">
-      <!-- Principio -->
-      <label for="inicio">Desde</label>
-      <input type="number" id="inicio" placeholder="Colocar cantidad de Pi" value="0" required>
-      <!-- Final -->
-      <label for="final">Hasta</label>
-      <input type="number" id="final" placeholder="Colocar cantidad de Pi" value="2" required>
+    <form action="" id="form">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="inicio">Desde (colocar cantidad de π)</label>
+          <input type="number" id="inicio" value="0">
+        </div>
+        <div class="form-group">
+          <label for="final">Hasta (colocar cantidad de π)</label>
+          <input type="number" id="final" value="2">
+        </div>
+      </div>
       <!-- Cantidad de puntos -->
-      <label for="puntos">Cantidad de puntos</label>
-      <input type="range" min="10"  max="300" value="150" id="puntos" required>
-      <span id="dots" > 150 </span>
-      <!-- Amplitud -->
-      <label for="a">Amplitud</label>
-      <input type="range" min="-10"  max="10" value="1" id="a" required>
-      <span id="cant" > 1 </span>
+      <div class="form-group">
+          <label for="puntos">Cantidad de puntos</label>
+          <input type="range" min="10"  max="300" value="150" id="puntos" required>
+        <div class="range-label">
+          <span id="dots" > 150 </span>
+        </div>
+      </div>
+      <div class="form-row">
+        <!-- Amplitud -->
+        <div class="form-group">
+            <label for="a">Amplitud</label>
+            <input type="range" min="-10" max="10" value="1" id="a" required>
+            <div class="range-label">
+              <span id="cant">1</span>
+            </div>
+          </div>
+
+        <!-- Periodo -->
+          <div class="form-group">
+              <label for="b">Periodo</label>
+              <input type="number" id="b" value="1" step="any">
+          </div>
+        </div>
+      <!-- c=ángulo de fase -->
+      <div class="form-row">
+        <div class="form-group">
+          <label for="c">Angulo de fase (en π)</label>
+          <input type="number" id="c" value="0" step="any" required>
+        </div>
+      <!-- d= termino independiente -->
+        <div class="form-group">
+          <label for="d">Término independiente</label>
+          <input type="number" id="d" value="0" step="any" required>
+        </div>
+      </div>
       <!-- Selector de funcion -->
-      <label for="selector">Función a graficar</label>
-      <select name="" id="selector">
-        <option value="sin">Seno</option>
-        <option value="cos">Coseno</option>
-        <option value="tg">Tangente</option>
-      </select>
+      <div class="form-group">
+        <label for="selector">Función a graficar</label>
+        <select name="" id="selector">
+          <option value="sin">Seno</option>
+          <option value="cos">Coseno</option>
+          <option value="tg">Tangente</option>
+        </select>
+      </div>
       <!-- submit -->
-      <button type="submit" id="subir">Enviar</button>
+      <div class="form-button">
+        <button type="submit" id="subir">Graficar</button>
+      </div>
     </form>
     <h1>Graficador de Funciones</h1>
-    <canvas id="grafico" width="3200" height="1800"></canvas>
+    <canvas id="grafico" width="4200" height="2100"></canvas>
   </main>
 
 </body>
