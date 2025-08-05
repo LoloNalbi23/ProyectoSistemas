@@ -10,67 +10,71 @@
 </head>
 <body>
   <main>
-    <form action="" id="form">
-      <div class="form-row">
-        <div class="form-group">
-          <label for="inicio">Desde (colocar cantidad de π)</label>
-          <input type="number" id="inicio" value="0">
+    <div class="form-image-container">
+      <form action="" id="form">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="inicio">Desde (colocar cantidad de π)</label>
+            <input type="number" id="inicio" value="0">
+          </div>
+          <div class="form-group">
+            <label for="final">Hasta (colocar cantidad de π)</label>
+            <input type="number" id="final" value="2">
+          </div>
         </div>
+        <!-- Cantidad de puntos -->
         <div class="form-group">
-          <label for="final">Hasta (colocar cantidad de π)</label>
-          <input type="number" id="final" value="2">
+            <label for="puntos">Cantidad de puntos</label>
+            <input type="range" min="10"  max="300" value="150" id="puntos" required>
+          <div class="range-label">
+            <span id="dots" > 150 </span>
+          </div>
         </div>
-      </div>
-      <!-- Cantidad de puntos -->
-      <div class="form-group">
-          <label for="puntos">Cantidad de puntos</label>
-          <input type="range" min="10"  max="300" value="150" id="puntos" required>
-        <div class="range-label">
-          <span id="dots" > 150 </span>
-        </div>
-      </div>
-      <div class="form-row">
-        <!-- Amplitud -->
-        <div class="form-group">
-            <label for="a">Amplitud</label>
-            <input type="range" min="-10" max="10" value="1" id="a" required>
-            <div class="range-label">
-              <span id="cant">1</span>
+        <div class="form-row">
+          <!-- Amplitud -->
+          <div class="form-group">
+              <label for="a">Amplitud</label>
+              <input type="range" min="-10" max="10" value="1" id="a" required>
+              <div class="range-label">
+                <span id="cant">1</span>
+              </div>
+            </div>
+
+          <!-- Periodo -->
+            <div class="form-group">
+                <label for="b">Periodo</label>
+                <input type="number" id="b" value="1" step="any">
             </div>
           </div>
-
-        <!-- Periodo -->
+        <!-- c=ángulo de fase -->
+        <div class="form-row">
           <div class="form-group">
-              <label for="b">Periodo</label>
-              <input type="number" id="b" value="1" step="any">
+            <label for="c">Angulo de fase (en π)</label>
+            <input type="number" id="c" value="0" step="any" required>
+          </div>
+        <!-- d= termino independiente -->
+          <div class="form-group">
+            <label for="d">Término independiente</label>
+            <input type="number" id="d" value="0" step="any" required>
           </div>
         </div>
-      <!-- c=ángulo de fase -->
-      <div class="form-row">
+        <!-- Selector de funcion -->
         <div class="form-group">
-          <label for="c">Angulo de fase (en π)</label>
-          <input type="number" id="c" value="0" step="any" required>
+          <label for="selector">Función a graficar</label>
+          <select name="" id="selector">
+            <option value="sin">Seno</option>
+            <option value="cos">Coseno</option>
+            <option value="tan">Tangente</option>
+          </select>
+          <input type="color" id="color" value="#EA2F14">
         </div>
-      <!-- d= termino independiente -->
-        <div class="form-group">
-          <label for="d">Término independiente</label>
-          <input type="number" id="d" value="0" step="any" required>
+        <!-- submit -->
+        <div class="form-button">
+          <button type="submit" id="subir">Graficar</button>
         </div>
-      </div>
-      <!-- Selector de funcion -->
-      <div class="form-group">
-        <label for="selector">Función a graficar</label>
-        <select name="" id="selector">
-          <option value="sin">Seno</option>
-          <option value="cos">Coseno</option>
-          <option value="tg">Tangente</option>
-        </select>
-      </div>
-      <!-- submit -->
-      <div class="form-button">
-        <button type="submit" id="subir">Graficar</button>
-      </div>
-    </form>
+      </form>
+      <img src="Lolo'sFunctionsimg.jpg" alt="Meme malo pero meme" class="side-image">
+    </div>
     <h1>Graficador de Funciones</h1>
     <canvas id="grafico" width="4200" height="2100"></canvas>
   </main>

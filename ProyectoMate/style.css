@@ -128,6 +128,21 @@ button[type="submit"]:hover {
   margin-top: 2rem;
 }
 
+.form-image-container {
+  display: flex;
+  align-items: flex-start; 
+  gap: 20px; 
+  flex-wrap: wrap; 
+}
+
+.side-image {
+  max-width: 600px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  object-fit: contain; 
+}
+
   canvas {
     width: 90%;
     max-width: 900px;

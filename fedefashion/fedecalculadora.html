@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fede's propinas</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <link rel="stylesheet" href="fedecalculadora.css">
+    <script src="fedecalculadora.js" defer></script>
+</head>
+<title>Calculadora de Propinas</title>
+<body>
+    <form action="submit" id="form">
+        <input type="number" id="cuenta" min="1" required>
+        <select name="" id="porcentaje">
+            <option value="0.1" selected>10%</option>
+            <option value="0.15">15%</option>
+            <option value="0.2">20%</option>
+            <option value="0.25">25%</option>
+        </select>
+        <button type="submit" id="cal">Calcular</button>
+    </form>
+    <h2 id="prop">Se mostrará la propina</h2>
+    <h2 id="total">Se mostrará el total</h2>
+</body>
+</html>

@@ -14,8 +14,6 @@ let funcionelegida = "sin"
 let eje_x = []
 console.log(eje_x);
 
-
-
 let text_cant_pt = document.getElementById("dots");
 divisiones.addEventListener("input", () => {
     cantidad_puntos = parseInt(divisiones.value);
@@ -24,24 +22,26 @@ divisiones.addEventListener("input", () => {
 
 let text_cant_a = document.getElementById("cant");
 let cant_a = document.getElementById("a")
-let cantidad_a = 1
+let  a = 1
 cant_a.addEventListener("input", () => {
-    cantidad_a = parseInt(cant_a.value);
-    text_cant_a.textContent = `${cantidad_a}`;
+    a = parseInt(cant_a.value);
+    text_cant_a.textContent = `${a}`;
 });
 
-function miFuncion1(x, tipo){
+function miFuncion1(x,tipo,b,c,d){
+    
     if(tipo === "sin"){
         funcionelegida = "sin"
-        return cantidad_a*(Math.sin((b*x)+c))+d
+        return a*(Math.sin((b*x)+c))+d
     } else if(tipo === "cos"){
         funcionelegida = "cos"
-        return cantidad_a*(Math.cos((b*x)+c))+d
-    } else if(tipo === "tg"){
+        return a*(Math.cos((b*x)+c))+d
+    } else if(tipo === "tan"){
         funcionelegida = "tan"
-        return cantidad_a*(Math.tan((b*x)+c))+d
+        return a*(Math.tan((b*x)+c))+d
     }
 }
+
 form.addEventListener("submit", (e) => {
     e.preventDefault()
     if(window.miFuncion){
@@ -67,7 +67,8 @@ form.addEventListener("submit", (e) => {
     b = parseFloat(parseFloat(periodo.value).toFixed(2))
     c = parseFloat(parseFloat(angulo_de_fase.value)*pi.toFixed(2))
     d = parseFloat(parseFloat(termino_independiente.value).toFixed(2))
-    let eje_y = eje_x.map(x => miFuncion1(x,select.value))
+    let color = document.getElementById("color").value
+    let eje_y = eje_x.map(x => miFuncion1(x,select.value,b,c,d))
     let grafica = `f(x)=${cant_a.value}${funcionelegida}(${b}x+${c})+${d}`
     
     //Graficar funcion
@@ -79,7 +80,7 @@ form.addEventListener("submit", (e) => {
         label: `${grafica}`,
         data:  eje_y,
         fill: true,
-        borderColor: '#1dd75b',
+        borderColor: color,
         borderWidth: 2,
         tension: 0.2
         }

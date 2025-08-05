@@ -1,0 +1,32 @@
+#alcance {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 450px;
+    background-color: #313131;
+    border-radius: 25px;
+}
+
+#contenedor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+}
+
+#boton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 60px;
+}
+
+#div_angulo{
+    width: 300px;
+}
+
+#div_v {
+    width: 300px;
+}

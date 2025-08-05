@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiro oblicuo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <link rel="stylesheet" href="fedetirooblicuo.css">
+    <script src="fedetirooblicuo.js" defer></script>
+</head>
+<body>
+    <form action="submit" id="form">
+        <div id="contenedor">
+            <div id="div_angulo">
+            <label for="angulo">Angulo de lanzamiento (grados)</label>
+            <input type="number" id="angulo" required>
+        </div>
+        <div id="div_v">
+            <label for="velocidad">Velocidad (en m/s)</label>
+        <input type="range" id="velocidad" max="50" min="0" value="1">
+        <span id="vspan">1</span>
+        </div>
+        <label for="alt">Altura inicial</label>
+        <input type="number" id="alt" value="0" required>
+        
+        <label for="dist">Desplazamiento horizontal</label>
+        <input type="number" id="dist" value="0" required>
+        <button type="submit" id="boton">Mostrar</button>
+        </div>
+    </form>
+    <h3 id="alcance">Alcance final: 0 m</h3>
+</body>
+</html>
