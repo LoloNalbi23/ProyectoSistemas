@@ -7,8 +7,6 @@ import Lista_super from './Lista_super.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Propinas />
-    <Tiro />
     <Lista_super />
   </StrictMode>,
 )

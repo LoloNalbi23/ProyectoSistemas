@@ -99,3 +99,4 @@ elif usuario == "papel" and e == "papel":
     print("Empate")
 elif usuario == "papel" and e == "tijera":
     print("Perdiste")
+
