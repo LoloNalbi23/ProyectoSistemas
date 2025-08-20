@@ -1,37 +1,42 @@
 import { createElement, useState } from 'react'
-
+import './lista_super.css';
+import Item from './Item.jsx'
 
 function Lista_super() {
-const [id, setId] = useState(1)
-const [name, setName] = useState("")
-const [price, setPrice] = useState(0)
-const [cat, setCat] = useState("")
+const [id, setId] = useState(0)
 const [lista, setLista] = useState([])
+const [producto, setProducto] = useState({
+    name:"",
+    price:0,
+    cat:"",
+    comprado:false
+})
     
-    const obtenername = (e) => {
-        setName(e.target.value)
-        console.log(e.target.value)
-    }
-    const obtenerprice = (e) => {
-        setPrice(parseFloat(e.target.value))
-        console.log(parseFloat(e.target.value))
-    }
-    const obtenercat = (e) => {
-        setCat(e.target.value)
-        console.log(e.target.value)
+    const obtener = (e) => {
+        const {name, value} = e.target
+        setProducto({...producto,[name] : value})
+        console.log({...producto,[name] : value})
     }
     const añadir = (e) => {
         e.preventDefault()
-        let newArreglo = {Id: id , nombre:name , precio:price, categoría:cat, comprado:false}
+        let newArreglo = {Id: id , nombre:producto.name , precio:producto.price, categoría:producto.cat, comprado:false}
         setLista([...lista,newArreglo])
         setId(id+1)
         console.log(...lista,newArreglo)
     }
-    const eliminar = (elemento) => {
-        setLista(lista.filter((v)=>{v.Id==!elemento}))
+    const eliminarl = (idojt) => {
+        setLista(lista.filter((v)=>v.Id!=idojt))
+        console.log(lista.filter((v)=>v.Id!==idojt))
     }
-    const comprar = (elemento) => {
-        setLista()
+    const comprar = (id) => {
+        const nuevosProductos = lista.map((p) => {
+        if (p.Id === id) {
+        return { ...p, comprado: true }
+        }
+        return p
+        })
+        console.log(nuevosProductos)
+        setLista(nuevosProductos)
     }
 return (
     <>
@@ -39,17 +44,17 @@ return (
         
         <div>
             <label htmlFor="name">Nombre: </label>
-            <input type="text" id="name" placeholder="Nombre de producto" required onInput={obtenername}></input>
+            <input type="text" name="name" placeholder="Nombre de producto" required onInput={obtener}></input>
         </div>
         
         <div>
             <label htmlFor="price">Precio: </label>
-            <input type="number" id="price" placeholder="Precio de producto" min="1" required onInput={obtenerprice}></input>
+            <input type="number" name="price" placeholder="Precio de producto" min="1" required onInput={obtener}></input>
         </div>
 
         <div>
             <label htmlFor="cat">Categoría: </label>
-        <select name="categoria" id="cat" onInput={obtenercat}>
+        <select name="cat" id="cat" onInput={obtener}>
             <option value="verduras">Verduras</option>
             <option value="frutas">Frutas</option>
             <option value="carne">Carnes</option>
@@ -62,17 +67,34 @@ return (
         <button type="submit">Agregar</button>
         </div>
         </form>
-        
-        {lista.map((n)=> <div id="Producto">
-            <p>{n.nombre}</p>
-            <p>{n.precio}</p>
-            <p>{n.categoría}</p>
-            <p>{n.Id}</p>
-            <button onClick={()=>comprar(n.Id)}>Comprar</button>
-            <button onClick={()=>eliminar(n.Id)}>Eliminar</button>
-            </div>)}
-        
-    </>
+
+        {(lista.filter((v)=>!v.comprado)).map((p) =>
+        <Item
+            key={p.Id}
+            id={p.Id}
+            name={p.nombre}   
+            price={p.precio}
+            categoria={p.categoría} 
+            comprado={p.comprado}
+            comprar={comprar}
+            eliminar={eliminarl}
+        />
+        )} 
+
+        {(lista.filter((v)=>v.comprado)).map((p) => 
+        <Item
+            key={p.Id}
+            id={p.Id}
+            name={p.nombre}
+            price={p.precio}
+            categoria={p.categoría}
+            comprado={p.comprado}
+            comprar={comprar}
+            eliminar={eliminarl}
+        />
+        )}
+                
+            </>
 )
 }
 

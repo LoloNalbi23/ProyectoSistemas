@@ -1,0 +1,97 @@
+/* Centrar el formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    width: 350px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Inputs y select */
+form div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+label {
+    flex: 1;
+    text-align: right;
+    margin-right: 10px;
+}
+
+input, select {
+    flex: 2;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Botón Agregar */
+button[type="submit"] {
+    padding: 8px 12px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* Lista de productos */
+#Producto {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Texto del producto */
+#Producto p {
+    margin: 0 10px;
+    flex: 1;
+    color: black;
+}
+
+/* Botones de acción */
+#Producto button {
+    padding: 6px 10px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#Producto button:first-of-type {
+    background-color: #007bff;
+    color: white;
+}
+#Producto button:first-of-type:hover {
+    background-color: #0069d9;
+}
+
+#Producto button:last-of-type {
+    background-color: #dc3545;
+    color: white;
+}
+#Producto button:last-of-type:hover {
+    background-color: #c82333;
+}
+.título {
+    color: white;   
+    text-align: center; 
+    margin-bottom: 20px; 
+}
