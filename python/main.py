@@ -123,6 +123,11 @@ import random
 
 # sumar_divisores(a)
 
+#2 Supercajas
+
+
+
+
 #3 Sumar dígitos
 # s = [2,4,"?",1,3,"?",2]
 
