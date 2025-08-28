@@ -145,18 +145,63 @@ import random
 # sumardígitos(s)
 
 #4 Pegatina
-N = 30
-K = 30
+# N = 30
+# K = 30
 
-def cadenamágica(N,K):
-    suma = 1
-    cm = []
-    while suma <= N:
-        if suma%K == 0:
-            cm.append(suma)
-        suma+=1
-    print(cm)
-    cadena_mágica = "".join(str(n) for n in cm)
-    print(cadena_mágica)
+# def cadenamágica(N,K):
+#     suma = 1
+#     cm = []
+#     while suma <= N:
+#         if suma%K == 0:
+#             cm.append(suma)
+#         suma+=1
+#     print(cm)
+#     cadena_mágica = "".join(str(n) for n in cm)
+#     print(cadena_mágica)
 
-cadenamágica(N,K)
+# cadenamágica(N,K)
+
+# Chinchon
+# numero = []
+# palo = []
+
+# def chinchon(numero, palo):
+#     ns = [0,0,0,0,0,0,0,0,0,0,0,0]
+#     hay_pierna = False
+#     hay_chinchon = False
+#     hay_escalera = False
+#     #Pierna
+#     for i in numero:
+#         if i==1:
+#             ns[0]+=1
+#         if i==2:
+#             ns[1]+=1
+#         if i==3:
+#             ns[2]+=1
+#         if i==4:
+#             ns[3]+=1
+#         if i==5:
+#             ns[4]+=1
+#         if i==6:
+#             ns[5]+=1
+#         if i==7:
+#             ns[6]+=1
+#         if i==8:
+#             ns[7]+=1
+#         if i==9:
+#             ns[8]+=1
+#         if i==10:
+#             ns[9]+=1
+#         if i==11:
+#             ns[10]+=1
+#         if i==12:
+#             ns[11]+=1
+#     for n in ns:
+#         if n>=3:
+#             print('hay pierna')
+#             hay_pierna = True
+#             n_pierna = ns.index(n) + 1
+
+#             arr = []
+#     #Chinchon
+#     if palo[0]==palo[1]==palo[2]==palo[3]==palo[4]==palo[5]==palo[6]:

@@ -8,6 +8,9 @@
   <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
   <script src="script.js" defer></script>
 </head>
+<header>
+  <h1>Graficador de Funciones</h1>
+</header>
 <body>
   <main>
     <div class="form-image-container">
@@ -49,7 +52,7 @@
         <!-- c=ángulo de fase -->
         <div class="form-row">
           <div class="form-group">
-            <label for="c">Angulo de fase (en π)</label>
+            <label for="c">Ángulo de fase (en π)</label>
             <input type="number" id="c" value="0" step="any" required>
           </div>
         <!-- d= termino independiente -->
@@ -64,19 +67,18 @@
           <select name="" id="selector">
             <option value="sin">Seno</option>
             <option value="cos">Coseno</option>
-            <option value="tan">Tangente</option>
           </select>
           <input type="color" id="color" value="#EA2F14">
         </div>
         <!-- submit -->
         <div class="form-button">
           <button type="submit" id="subir">Graficar</button>
+          <h1 id="ecuacion">Se mostrará la ecuación final</h1>
         </div>
       </form>
-      <img src="Lolo'sFunctionsimg.jpg" alt="Meme malo pero meme" class="side-image">
+      <canvas id="grafico" width="4200" height="2100"></canvas>
     </div>
-    <h1>Graficador de Funciones</h1>
-    <canvas id="grafico" width="4200" height="2100"></canvas>
+    <img src="Lolo'sFunctionsimg.jpg" alt="Meme malo pero meme" class="side-image">
   </main>
 
 </body>

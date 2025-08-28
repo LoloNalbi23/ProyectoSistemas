@@ -14,7 +14,10 @@ form {
   background-color: #1e1e1e;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
 }
-
+header{
+  display: flex;
+  justify-content: center;
+}
 .form-group {
   margin-bottom: 1.2rem;
   display: flex;
@@ -150,3 +153,6 @@ button[type="submit"]:hover {
     margin: 2rem auto;
     display: block;
   }
+#grafico{
+  background-color: white;
+}

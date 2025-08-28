@@ -2,6 +2,8 @@
 
 dados = [1,2,3,4,5]
 def puntaje(dados):
+    num = [0,0,0,0,0,0]
+    cond_full = [False,False]
     suma_1 = 0
     suma_2 = 0
     suma_3 = 0
@@ -40,8 +42,30 @@ def puntaje(dados):
         if(dados[0]!=2 and dados[1]!=2 and dados[2]!=2 and dados[3]!=2 and dados[4]!=2):
             escalera += 20
     # Punto 8
+    for i in dados:
+        if i == 1:
+            num[0]+=1
+        if i == 2:
+            num[1]+=1
+        if i == 3:
+            num[2]+=1
+        if i == 4:
+            num[3]+=1
+        if i == 5:
+            num[4]+=1
+        if i == 6:
+            num[5]+=1
+    for n in num:
+        if n == 3:
+            cond_full[0] = True
+        if n == 2:
+            cond_full[1] = True
+    if cond_full[0] and cond_full[1]:
+        full += 30
     # Punto 9
-    
+    for n in num:
+        if n == 4:
+            poker += 40
     puntajes = [suma_1, suma_2, suma_3, suma_4, suma_5, suma_6, escalera, full, poker, generala]
     print(puntajes)
 
@@ -58,10 +82,10 @@ def thor(a,f,p,Dist):
     while posicion < len(a):
         al = a[posicion]
         fu = f[posicion]
-        pe = p[posicion]
-        d = (al*fu)/pe
-        if d >= Dist:
-            posibles += 1
+        for pe in p:
+            d = (al*fu)/pe
+            if d >= Dist:
+                posibles += 1
         posicion += 1
     print(posibles)
 
@@ -73,3 +97,6 @@ thor(a,f,p,Dist)
 
 # comodines(grilla)
 # Riesgo
+
+grilla = [[1, 1], [100,200], [1, 3], [50,50], [1,5]]
+
