@@ -30,7 +30,7 @@ const ejeCeroPlugin = {
     ctx.restore();
   }
 };
-
+let button = document.getElementById("meme")
 let form = document.getElementById("form")
 let input_inicio = document.getElementById("inicio")
 let input_final = document.getElementById("final")
@@ -56,6 +56,13 @@ divisiones.addEventListener("input", () => {
     text_cant_pt.textContent = `${cantidad_puntos}`;
     crear_grafico();
 });
+
+function mostrarImagen() {
+    let img = document.getElementById("imagen")
+    img.style.display = "block";
+}
+    
+
 
 let text_cant_a = document.getElementById("cant");
 let cant_a = document.getElementById("a")

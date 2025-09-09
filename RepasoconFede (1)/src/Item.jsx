@@ -1,33 +1,28 @@
 import { createElement, useState } from 'react'
+import './lista_super.css';
+import { useOutletContext } from 'react-router-dom';
+function Item(){
+    const [lista, setLista] = useOutletContext()
 
-function Item({ id, name, price, categoria, comprado, eliminar, comprar }){
-
+    const eliminarl = (idojt) => {
+        setLista(lista.filter((v) => v.Id != idojt))
+        console.log(lista.filter((v) => v.Id !== idojt))
+    }
 return(
     <>
-    {!comprado ? (  //Fede, perdón pero este me ganó, no llegué con el tiempo y si se fija, ese operador terniario es de Chat GPT, disculpeme esta vez.
-        <>
-        <h1 className='títulos'>Productos pendientes</h1>
-        <div id="Producto">
-            <p>{name}</p>
-            <p>{price}</p>
-            <p>{categoria}</p>
-            <p>{id}</p>
-            <button className="btncompra" onClick={() => comprar(id)}>Comprar</button>
-            <button onClick={() => eliminar(id)}>Eliminar</button>
-        </div>
-        </>
-    ) : (
-        <>
-        <h1 className='títulos'>Productos comprados</h1>
-        <div id="Producto">
-            <p>{name}</p>
-            <p>{price}</p>
-            <p>{categoria}</p>
-            <p>{id}</p>
-            <button onClick={() => eliminar(id)}>Eliminar</button>
-        </div>
-        </>
-    )}
+    <h1 className='títulos'>Productos pendientes</h1>
+            {(lista.filter((v) => v.comprado)).map((p) => {
+                return (
+                    <div>
+                        <div id="Producto">
+                            <p>{p.name}</p>
+                            <p>{p.price}</p>
+                            <p>{p.cat}</p>
+                            <button onClick={() => eliminarl(p.Id)}>Eliminar</button>
+                        </div>
+                    </div>
+                )
+            })}
     </>
 
 )
