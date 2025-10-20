@@ -1,78 +1,78 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="27.1.4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.7">
   <diagram name="Página-1" id="Uo290sXAWz3o0mESr4db">
-    <mxGraphModel dx="1042" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1507" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="1t6wPVBJR-NHLLcAFa9r-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1t6wPVBJR-NHLLcAFa9r-1" target="1t6wPVBJR-NHLLcAFa9r-3">
+        <mxCell id="1t6wPVBJR-NHLLcAFa9r-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1t6wPVBJR-NHLLcAFa9r-1" target="1t6wPVBJR-NHLLcAFa9r-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="560" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1t6wPVBJR-NHLLcAFa9r-1" value="Escaneo de QR&lt;div&gt;(mediante la cámara en la app)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1t6wPVBJR-NHLLcAFa9r-1" value="Escaneo de QR&lt;div&gt;(mediante la cámara en la app)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="500" y="100" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1t6wPVBJR-NHLLcAFa9r-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1t6wPVBJR-NHLLcAFa9r-3" target="1t6wPVBJR-NHLLcAFa9r-4">
+        <mxCell id="1t6wPVBJR-NHLLcAFa9r-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1t6wPVBJR-NHLLcAFa9r-3" target="1t6wPVBJR-NHLLcAFa9r-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1t6wPVBJR-NHLLcAFa9r-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1t6wPVBJR-NHLLcAFa9r-3" target="1t6wPVBJR-NHLLcAFa9r-6">
+        <mxCell id="1t6wPVBJR-NHLLcAFa9r-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="1t6wPVBJR-NHLLcAFa9r-3" target="1t6wPVBJR-NHLLcAFa9r-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1t6wPVBJR-NHLLcAFa9r-3" value="Llenado de formulario" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1t6wPVBJR-NHLLcAFa9r-3" value="Llenado de formulario" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="500" y="220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1t6wPVBJR-NHLLcAFa9r-4" value="Gracias por llenarlo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1t6wPVBJR-NHLLcAFa9r-4" value="Gracias por llenarlo" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="500" y="340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1t6wPVBJR-NHLLcAFa9r-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1t6wPVBJR-NHLLcAFa9r-6" target="1t6wPVBJR-NHLLcAFa9r-4">
+        <mxCell id="1t6wPVBJR-NHLLcAFa9r-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="1t6wPVBJR-NHLLcAFa9r-6" target="1t6wPVBJR-NHLLcAFa9r-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="760" y="370" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1t6wPVBJR-NHLLcAFa9r-6" value="Se registra la asistencia con el gmail (en DB y en excel)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="1t6wPVBJR-NHLLcAFa9r-6" value="Se registra la asistencia con el gmail (en DB y en excel)" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="700" y="280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1t6wPVBJR-NHLLcAFa9r-10" value="Formulario para tomar asistencia" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="1t6wPVBJR-NHLLcAFa9r-10" value="Formulario para tomar asistencia" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="520" y="30" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1t6wPVBJR-NHLLcAFa9r-11" value="Profes para poner reconocimiento" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="1t6wPVBJR-NHLLcAFa9r-11" value="Profes para poner reconocimiento" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="75" y="30" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1t6wPVBJR-NHLLcAFa9r-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1t6wPVBJR-NHLLcAFa9r-13" target="1t6wPVBJR-NHLLcAFa9r-16">
+        <mxCell id="1t6wPVBJR-NHLLcAFa9r-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1t6wPVBJR-NHLLcAFa9r-13" target="1t6wPVBJR-NHLLcAFa9r-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="180" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1t6wPVBJR-NHLLcAFa9r-13" value="Se entra a &quot;Reconocimintos&quot;&lt;div&gt;(componente de la app)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1t6wPVBJR-NHLLcAFa9r-13" value="Se entra a &quot;Reconocimintos&quot;&lt;div&gt;(componente de la app)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="100" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1t6wPVBJR-NHLLcAFa9r-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1t6wPVBJR-NHLLcAFa9r-16" target="1t6wPVBJR-NHLLcAFa9r-17">
+        <mxCell id="1t6wPVBJR-NHLLcAFa9r-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1t6wPVBJR-NHLLcAFa9r-16" target="1t6wPVBJR-NHLLcAFa9r-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1t6wPVBJR-NHLLcAFa9r-16" value="Se coloca el curso" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1t6wPVBJR-NHLLcAFa9r-16" value="Se coloca el curso" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1t6wPVBJR-NHLLcAFa9r-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1t6wPVBJR-NHLLcAFa9r-17" target="1t6wPVBJR-NHLLcAFa9r-19">
+        <mxCell id="1t6wPVBJR-NHLLcAFa9r-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1t6wPVBJR-NHLLcAFa9r-17" target="1t6wPVBJR-NHLLcAFa9r-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1t6wPVBJR-NHLLcAFa9r-17" value="Según quien este presente ese día se arma una lista con los alumnos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1t6wPVBJR-NHLLcAFa9r-17" value="Según quien este presente ese día se arma una lista con los alumnos" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1t6wPVBJR-NHLLcAFa9r-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1t6wPVBJR-NHLLcAFa9r-19" target="1t6wPVBJR-NHLLcAFa9r-25">
+        <mxCell id="1t6wPVBJR-NHLLcAFa9r-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="1t6wPVBJR-NHLLcAFa9r-19" target="1t6wPVBJR-NHLLcAFa9r-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1t6wPVBJR-NHLLcAFa9r-19" value="Se elije un alumno y se coloca el reconocimiento con su accion" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="1t6wPVBJR-NHLLcAFa9r-19" value="Se elije un alumno y se coloca el reconocimiento con su accion" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="120" y="480" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1t6wPVBJR-NHLLcAFa9r-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+        <mxCell id="1t6wPVBJR-NHLLcAFa9r-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="180" y="540" as="sourcePoint" />
             <mxPoint x="180" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1t6wPVBJR-NHLLcAFa9r-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1t6wPVBJR-NHLLcAFa9r-25">
+        <mxCell id="1t6wPVBJR-NHLLcAFa9r-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="1t6wPVBJR-NHLLcAFa9r-25" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="240" y="630" as="targetPoint" />
             <Array as="points">
@@ -80,44 +80,44 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1t6wPVBJR-NHLLcAFa9r-25" value="Se registra el reconocimiento con el gmail (en DB y en excel)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="1t6wPVBJR-NHLLcAFa9r-25" value="Se registra el reconocimiento con el gmail (en DB y en excel)" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="540" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1t6wPVBJR-NHLLcAFa9r-27" value="Gracias por llenarlo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1t6wPVBJR-NHLLcAFa9r-27" value="Gracias por llenarlo" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="600" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1t6wPVBJR-NHLLcAFa9r-28" value="Formulario para justificar falta" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="520" y="460" width="250" height="30" as="geometry" />
+        <mxCell id="1t6wPVBJR-NHLLcAFa9r-28" value="Formulario para justificar falta" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="900" y="30" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1t6wPVBJR-NHLLcAFa9r-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1t6wPVBJR-NHLLcAFa9r-30" target="1t6wPVBJR-NHLLcAFa9r-33">
+        <mxCell id="1t6wPVBJR-NHLLcAFa9r-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1t6wPVBJR-NHLLcAFa9r-30" target="1t6wPVBJR-NHLLcAFa9r-33" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="560" y="680" as="targetPoint" />
+            <mxPoint x="940" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1t6wPVBJR-NHLLcAFa9r-30" value="Escaneo de QR&lt;div&gt;(Dado por el preceptor)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="530" width="120" height="60" as="geometry" />
+        <mxCell id="1t6wPVBJR-NHLLcAFa9r-30" value="Escaneo de QR&lt;div&gt;(Dado por el preceptor)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="880" y="100" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1t6wPVBJR-NHLLcAFa9r-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1t6wPVBJR-NHLLcAFa9r-33" target="1t6wPVBJR-NHLLcAFa9r-34">
+        <mxCell id="1t6wPVBJR-NHLLcAFa9r-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1t6wPVBJR-NHLLcAFa9r-33" target="1t6wPVBJR-NHLLcAFa9r-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1t6wPVBJR-NHLLcAFa9r-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1t6wPVBJR-NHLLcAFa9r-33" target="1t6wPVBJR-NHLLcAFa9r-36">
+        <mxCell id="1t6wPVBJR-NHLLcAFa9r-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="1t6wPVBJR-NHLLcAFa9r-33" target="1t6wPVBJR-NHLLcAFa9r-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1t6wPVBJR-NHLLcAFa9r-33" value="Llenado de formulario&lt;div&gt;(con fecha y razón&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="650" width="120" height="60" as="geometry" />
+        <mxCell id="1t6wPVBJR-NHLLcAFa9r-33" value="Llenado de formulario&lt;div&gt;(con fecha y razón&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="880" y="220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1t6wPVBJR-NHLLcAFa9r-34" value="Gracias por llenarlo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="770" width="120" height="60" as="geometry" />
+        <mxCell id="1t6wPVBJR-NHLLcAFa9r-34" value="Gracias por llenarlo" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="880" y="340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1t6wPVBJR-NHLLcAFa9r-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1t6wPVBJR-NHLLcAFa9r-36" target="1t6wPVBJR-NHLLcAFa9r-34">
+        <mxCell id="1t6wPVBJR-NHLLcAFa9r-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="1t6wPVBJR-NHLLcAFa9r-36" target="1t6wPVBJR-NHLLcAFa9r-34" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="760" y="800" />
+              <mxPoint x="1140" y="370" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1t6wPVBJR-NHLLcAFa9r-36" value="Se registra la falta con el gmail (en DB y en excel)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="700" y="710" width="120" height="60" as="geometry" />
+        <mxCell id="1t6wPVBJR-NHLLcAFa9r-36" value="Se registra la falta con el gmail (en DB y en excel)" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="280" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
