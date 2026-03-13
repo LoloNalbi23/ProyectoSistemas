@@ -54,6 +54,8 @@ h1 {
   margin-bottom: -8px;
 }
 
+#borrar_l:hover { background: rgba(255,79,79,.08); border-color: var(--danger); }
+
 h4 {
   font-weight: 400;
   font-size: 14px;
@@ -146,18 +148,13 @@ button {
 #generar:active { transform: translateY(0); }
 
 #cargar {
-  background: linear-gradient(135deg, var(--accent) 0%, var(--accent2) 100%);
-  color: #0a0c10;
-  width: 100%;
-  padding: 16px;
-  font-size: 16px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-family: 'Archivo Black', sans-serif;
+  background: var(--surface2) !important;
+  color: var(--text) !important;
+  border: 1.5px solid var(--border) !important;
+  width: 100% !important;
 }
 
-#cargar:hover { filter: brightness(1.1); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(200,241,53,.2); }
-#gargar:active { transform: translateY(0); }
+#cargar:hover { border-color: var(--accent); color: var(--accent); } 
 
 #save {
   background: var(--surface2);
@@ -184,7 +181,6 @@ button {
   flex: 1;
 }
 
-#borrar_l:hover { background: rgba(255,79,79,.08); border-color: var(--danger); }
 
 /* Fila de botones lista/borrar */
 #container > #lista,
